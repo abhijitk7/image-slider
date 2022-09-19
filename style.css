@@ -20,7 +20,7 @@ body{
 }
 
 .panel{
-    background-size: cover;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 80vh;
@@ -44,7 +44,7 @@ body{
 
 .panel.active {
     flex: 5;
-  }
+}
 
 .panel.active h3{
     opacity: 1;

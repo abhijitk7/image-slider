@@ -1,7 +1,5 @@
 const panels = document.querySelectorAll(".panel")
 
-console.dir(panels)
-
 panels.forEach(panel => {
   panel.addEventListener("click", () => {
     removeActivePanel()
@@ -11,6 +9,6 @@ panels.forEach(panel => {
 
 function removeActivePanel() {
   panels.forEach(panel => {
-    panel.classList.remove("acitve")
+    panel.classList.remove("active")
   })
 }
